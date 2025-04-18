@@ -1,0 +1,122 @@
+/* Utility classes */
+.hidden {
+    visibility: hidden !important;
+}
+
+.inline-block {
+    display: inline-block !important;
+}
+
+.flex {
+    display: flex !important;
+}
+
+.inline {
+    display: inline !important;
+}
+
+.margin-auto {
+    margin: auto !important;
+}
+
+.padding-zero {
+    padding: 0 !important;
+}
+
+.no-margin {
+    margin: 0 !important;
+}
+
+.full-width {
+    width: 100% !important;
+}
+
+.full-height {
+    height: 100% !important;
+}
+
+.text-uppercase {
+    text-transform: uppercase !important;
+}
+
+.text-lowercase {
+    text-transform: lowercase !important;
+}
+
+.text-capitalize {
+    text-transform: capitalize !important;
+}
+
+.opacity-50 {
+    opacity: 0.5 !important;
+}
+
+.opacity-100 {
+    opacity: 1 !important;
+}
+.block {
+    display: block !important;
+}
+
+.debug {
+    border: 1px dashed red !important;
+}
+
+.no-border {
+    border: 0px !important;
+}
+
+.bordered {
+    border: 1px solid gray !important;
+}
+
+.hide {
+    display: none !important;
+}
+
+.underlined {
+    text-decoration: underline !important;
+}
+
+.no-style-lists,
+.no-style-list {
+    list-style: none !important;
+}
+
+.inverted {
+    transform: rotate(180deg) !important;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-left {
+    text-align: left;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.pointer {
+    cursor: pointer;
+}
+
+.zoom {
+    transition: all 0.5s ease 0s;
+}
+
+.zoom:hover {
+    visibility: visible;
+    opacity: 1;
+    -webkit-transform: scale(1.4);
+    -moz-transform: scale(1.4);
+    -ms-transform: scale(1.4);
+    -o-transform: scale(1.4);
+    transform: scale(1.4);
+}
+
+.line1 {
+    line-height: 1;
+}

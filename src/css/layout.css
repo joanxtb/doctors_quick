@@ -1,0 +1,150 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:root,
+body {
+    font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+    color-scheme: light dark;
+    color: rgba(255, 255, 255, 0.87);
+    background-color: black !important;
+    font-synthesis: none;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.w3-container {
+    padding: 0.01em 16px;
+}
+
+.w3-content {
+    max-width: 980px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.pattern {
+    background: url('/images/pattern.webp') no-repeat center top;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 0;
+    background-color: #000;
+    opacity: 0.5;
+    -webkit-transition: opacity 0.15s linear;
+    -o-transition: opacity 0.15s linear;
+    transition: opacity 0.15s linear
+}
+
+.abs {
+    position: absolute;
+}
+
+.fullscreen {
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+a,
+button {
+    text-decoration: none !important;
+}
+
+.btn-deafult {
+    background-color: white;
+}
+
+.popover {
+    max-width: inherit !important;
+    background-color: #0e1115 !important;
+    border: 2px solid #343f4b !important;
+}
+
+.dark-overlay {
+    position: fixed;
+    inset: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.75);
+}
+
+.hoverable {
+    transition: all 0.4s;
+    -webkit-transition: all 0.4s;
+    -o-transition: all 0.4s;
+    -moz-transition: all 0.4s;
+}
+
+.hoverable:hover {
+    visibility: visible;
+    opacity: 1;
+    -webkit-transform: scale(1.05);
+    -moz-transform: scale(1.05);
+    -ms-transform: scale(1.05);
+    -o-transform: scale(1.05);
+    transform: scale(1.05);
+}
+
+.sheet {
+    width: 920px;
+    background: #fff;
+    border-radius: 15px;
+    padding: 2em;
+}
+
+.black-input {
+    border-radius: 12px;
+    background-color: transparent;
+    border: 2px solid #343f4b;
+}
+
+.black-input.white-border {
+    border: 2px solid #e5e5e5 !important;
+}
+
+.black-input.dirty {
+    border: 2px solid #1771ff !important;
+}
+
+.dropdown>button {
+    border: 0
+}
+
+.black-input.drop-section {
+    border: 2px dashed #343f4b !important;
+}
+
+.black-input.error-input {
+    border-radius: 12px;
+    border: 2px solid var(--color-system-danger-600, #C20) !important;
+    background: var(--color-system-error-fill-25, rgba(153, 26, 0, 0.25));
+    box-shadow: 0px 1px 4px 0px rgba(204, 34, 0, 0.45);
+    background-color: #CC220055 !important;
+}
+
+.black-input>* {
+    background-color: transparent;
+    border-width: 0 !important;
+    outline: none !important;
+}
+
+.cover {
+    background-size: cover !important;
+}
+
+.contain,
+.contains {
+    background-size: contain !important;
+}
