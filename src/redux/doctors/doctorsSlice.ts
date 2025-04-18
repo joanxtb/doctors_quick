@@ -17,7 +17,7 @@ const firstNamesMen = ["John", "Michael", "Chris", "David", "Daniel"];
 const firstNamesWomen = ["Jane", "Emily", "Sarah", "Laura", "Sophia"];
 const lastNames = ["Smith", "Johnson", "Williams", "Brown", "Jones", "Garcia", "Miller", "Davis", "Rodriguez", "Martinez"];
 const availability = [true, true, true, true, false, true, true, true, true,];
-const ratings = [0,1,2,3,4,5];
+const ratings = [1, 2, 3, 4, 5];
 const mock_data = Array.from({ length: 30 }, (x, index) => {
     const isEven = index % 2 === 0;
     const gender = isEven ? "girl" : "boy";
@@ -29,7 +29,7 @@ const mock_data = Array.from({ length: 30 }, (x, index) => {
         lastname: lastNames[index % lastNames.length],
         specialty: specialties[index % specialties.length],
         location: cities[index % cities.length],
-        available: _.sample(availability) ?? false,
+        available: _.sample(availability),
         rating: _.sample(ratings),
         photo: `https://avatar.iran.liara.run/public/${gender}`
         //https://avatar.iran.liara.run/public/boy
@@ -43,7 +43,7 @@ const doctorsSlice = createSlice({
     initialState,
     reducers: {
         // Non async functions basically, like direct mutations to the state        
-        SET_LOCAL: (state) => {            
+        SET_LOCAL: (state) => {
             state.value = [...state.value]; // <- force refresh?
         }
     },
