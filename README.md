@@ -42,3 +42,6 @@ For further assistance, refer to the project documentation or contact the mainta
 
 8. ** Integration tests
     I will try to implement some before the timecap.
+
+9. ** Lighthouse tests
+    It is pretty ok in terms of Accessibility, Performance and Best practices. SEO.. not so much.
