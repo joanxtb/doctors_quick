@@ -35,7 +35,7 @@ const Home = () => {
     useEffect(() => {
         // This is redux code        
         dispatchAsync(FETCH_DOCTORS_ASYNC());
-    }, []);    
+    }, []);
 
     // REDUX
     const Doctors = useSelector((state: RootState) => state.Doctors.value);
@@ -75,7 +75,7 @@ const Home = () => {
             <h2 className="white mt-4 align-self-center anton">Find your doc!</h2>
 
             {/* TOAST */}
-            {state.toast && <Toast style={{ position: 'fixed', top: 30, zIndex: 10 }} role="alert">
+            {state.toast && <Toast className="ease" style={{ position: 'fixed', top: 30, right: 30, zIndex: 10, overflow: 'hidden' }} role="alert">
                 <ToastBody className="bg-success white">
                     <i className="fas fa-check me-2" />You've booked doctor successfully!
                 </ToastBody>
