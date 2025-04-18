@@ -12,8 +12,10 @@ const BookingListItem: React.FC<BookingListItemProps> = ({ booking }) => {
     const cardStyle: React.CSSProperties = {
         background: `url(${doctor.photo}) left center / 120px no-repeat white`,
         overflow: 'hidden',
-        border: '0px',
+        border: 0,
         height: 120,
+        borderTopLeftRadius: 60,
+        borderBottomLeftRadius: 60,
     };
 
     return (

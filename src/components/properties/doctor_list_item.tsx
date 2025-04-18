@@ -14,6 +14,8 @@ const DoctorListItem: React.FC<DoctorListItemProps> = ({ doctor, onBook }) => {
         overflow: 'hidden',
         border: '0px',
         height: 120,
+        borderTopLeftRadius: 60,
+        borderBottomLeftRadius: 60,
     };
 
     return (
