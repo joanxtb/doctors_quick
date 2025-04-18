@@ -30,3 +30,15 @@ For further assistance, refer to the project documentation or contact the mainta
     We only used Copilot AI for Component boilerplate and code completion. Also
     because the data is mostly 'Mocked', Copilot helped a creating snippets that
     auto-generates that data.
+
+6. ** About Cursor AI.
+    Honestly I didn't knew about it, and when I went into it, they said that is
+    in its early steps, and needs to enter a queue in order to have access to it. 
+    Discarded it inmediatelly.
+
+7. ** Know limitations
+    This project is not using any SSR tool (like Next.js). Therefore, their SEO capabilities
+    are next to none. This would be next steps.
+
+8. ** Integration tests
+    I will try to implement some before the timecap.
