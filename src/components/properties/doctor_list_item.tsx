@@ -33,7 +33,7 @@ const DoctorListItem: React.FC<DoctorListItemProps> = ({ doctor, onBook }) => {
                         })}
 
                         {/* Book button */}
-                        <button role="button" aria-label={`book an appointment with ${doctor.name} ${doctor.lastname}`} onClick={() => onBook(doctor)} style={{ borderRadius: 10, height: 20 }} className={`btn btn-sm btn-${doctor.available ? 'info' : 'link red'} ms-auto font-8 py-0 px-2`}>{doctor.available ? 'BOOK' : 'Not available'}</button>
+                        <button role="button" aria-label={`book an appointment with ${doctor.name} ${doctor.lastname}`} onClick={() => onBook(doctor)} style={{ borderRadius: 12, height: 24 }} className={`btn btn-sm btn-${doctor.available ? 'info' : 'link red'} ms-auto font-6 py-0 px-2`}>{doctor.available ? 'Book' : 'Not available'}</button>
                     </div>
                 </section>
             </figure>
