@@ -20,8 +20,8 @@ const availability = [true, true, true, true, false, true, true, true, true,];
 const ratings = [0,1,2,3,4,5];
 const mock_data = Array.from({ length: 30 }, (x, index) => {
     const isEven = index % 2 === 0;
-    const gender = isEven ? "boy" : "girl";
-    const photoId = 10 + (index % 21); // Generates numbers between 10 and 30
+    const gender = isEven ? "girl" : "boy";
+    //const photoId = 10 + (index % 21); // Generates numbers between 10 and 30
 
     return {
         id: index,
