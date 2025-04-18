@@ -26,25 +26,28 @@ Follow these steps to set up the project:
 
 For further assistance, refer to the project documentation or contact the maintainer @joanxtb
 
-5. ** AI used in this project
+5. **AI used in this project
     We only used Copilot AI for Component boilerplate and code completion. Also
     because the data is mostly 'Mocked', Copilot helped a creating snippets that
     auto-generates that data.
 
-6. ** About Cursor AI.
+6. **About Cursor AI.
     Honestly I didn't knew about it, and when I went into it, they said that is
     in its early steps, and needs to enter a queue in order to have access to it. 
     Discarded it inmediatelly.
 
-7. ** Know limitations
+7. **Know limitations
     This project is not using any SSR tool (like Next.js). Therefore, their SEO capabilities
     are next to none. This would be next steps.
 
-8. ** Integration tests
+8. **Integration tests
     I will try to implement some before the timecap.
 
-9. ** Lighthouse tests (Desktop)
+9. **Lighthouse tests (Desktop)
     It is pretty ok in terms of Accessibility, Performance and Best practices. SEO.. not so much.
 
-10. ** Lighthouse tests (Mobile)
+10. **Lighthouse tests (Mobile)
     Need to do some fixes in terms of performance.
+
+11. **What's next
+    Need to improve the Appointments modal, refactor it out to a Component.
